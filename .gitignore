@@ -1,0 +1,3 @@
+node_modules/
+# Berkas dependensi proyek yang dihasilkan dinamis
+package-lock.json
