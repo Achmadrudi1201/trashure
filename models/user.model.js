@@ -4,7 +4,7 @@ const dbConfig = require('../config/db.config');
 const connection = mysql.createConnection({
   host: dbConfig.HOST,
   user: dbConfig.USER,
-  password: dbConfig.PASSWORD.trim(),  // Menghilangkan spasi yang tidak diinginkan
+  password: dbConfig.PASSWORD.trim(),  
   database: dbConfig.DB
 });
 
